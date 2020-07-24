@@ -1,0 +1,1559 @@
+[01:22:07] [Client thread/INFO]: Setting user: dev
+[01:22:07] [Client thread/INFO]: (Session ID is token:0:dev)
+[01:22:08] [Client thread/INFO]: LWJGL Version: 2.9.3
+[01:22:09] [Client thread/INFO]: Reloading ResourceManager: Default
+[01:22:09] [Client thread/ERROR]: Couldn't initialize twitch stream
+[01:22:09] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[01:22:09] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[01:22:09] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:22:09] [Client thread/WARN]: Unable to load definition minecraft:aerya_block#normal
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/aerya_block.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:174) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:115) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:95) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/aerya_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:95) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:149) ~[bin/:?]
+	... 9 more
+[01:22:09] [Thread-7/INFO]: OpenAL initialized.
+[01:22:09] [Client thread/WARN]: Unable to load definition minecraft:amethyste_ore#normal
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/amethyste_ore.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:174) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:115) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:95) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/amethyste_ore.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:95) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:149) ~[bin/:?]
+	... 9 more
+[01:22:09] [Client thread/WARN]: Unable to load definition minecraft:aerya_ore#normal
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/aerya_ore.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:174) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:115) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:95) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/aerya_ore.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:95) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:149) ~[bin/:?]
+	... 9 more
+[01:22:09] [Client thread/WARN]: Unable to load definition minecraft:aventurine_ore#normal
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/aventurine_ore.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:174) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:115) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:95) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/aventurine_ore.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:95) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:149) ~[bin/:?]
+	... 9 more
+[01:22:09] [Client thread/WARN]: Unable to load definition minecraft:eladrite_ore#normal
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/eladrite_ore.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:174) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:115) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:95) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/eladrite_ore.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:95) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:149) ~[bin/:?]
+	... 9 more
+[01:22:09] [Client thread/WARN]: Unable to load definition minecraft:aerya_infuser#normal
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/aerya_infuser.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:174) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:115) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:95) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/aerya_infuser.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:95) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:149) ~[bin/:?]
+	... 9 more
+[01:22:09] [Client thread/WARN]: Unable to load definition minecraft:amethyste_block#normal
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/amethyste_block.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:174) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:115) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:95) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/amethyste_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:95) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:149) ~[bin/:?]
+	... 9 more
+[01:22:09] [Client thread/WARN]: Unable to load definition minecraft:tourmaline_block#normal
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/tourmaline_block.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:174) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:115) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:95) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/tourmaline_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:95) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:149) ~[bin/:?]
+	... 9 more
+[01:22:10] [Client thread/WARN]: Unable to load definition minecraft:aventurine_block#normal
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/aventurine_block.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:174) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:115) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:95) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/aventurine_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:95) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:149) ~[bin/:?]
+	... 9 more
+[01:22:10] [Client thread/WARN]: Unable to load definition minecraft:eladrite_block#normal
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/eladrite_block.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:174) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:115) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:95) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/eladrite_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:95) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:149) ~[bin/:?]
+	... 9 more
+[01:22:10] [Client thread/WARN]: Unable to load definition minecraft:tourmaline_ore#normal
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/tourmaline_ore.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:174) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:115) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:95) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/tourmaline_ore.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:95) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:78) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:149) ~[bin/:?]
+	... 9 more
+[01:22:10] [Sound Library Loader/INFO]: Sound engine started
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_ore' for item: 'minecraft:aerya_ore'
+java.io.FileNotFoundException: minecraft:models/item/aerya_ore.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_block' for item: 'minecraft:aerya_block'
+java.io.FileNotFoundException: minecraft:models/item/aerya_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/eladrite_ore' for item: 'minecraft:eladrite_ore'
+java.io.FileNotFoundException: minecraft:models/item/eladrite_ore.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/eladrite_block' for item: 'minecraft:eladrite_block'
+java.io.FileNotFoundException: minecraft:models/item/eladrite_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aventurine_ore' for item: 'minecraft:aventurine_ore'
+java.io.FileNotFoundException: minecraft:models/item/aventurine_ore.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aventurine_block' for item: 'minecraft:aventurine_block'
+java.io.FileNotFoundException: minecraft:models/item/aventurine_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/amethyste_ore' for item: 'minecraft:amethyste_ore'
+java.io.FileNotFoundException: minecraft:models/item/amethyste_ore.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/amethyste_block' for item: 'minecraft:amethyste_block'
+java.io.FileNotFoundException: minecraft:models/item/amethyste_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/tourmaline_ore' for item: 'minecraft:tourmaline_ore'
+java.io.FileNotFoundException: minecraft:models/item/tourmaline_ore.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/tourmaline_block' for item: 'minecraft:tourmaline_block'
+java.io.FileNotFoundException: minecraft:models/item/tourmaline_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_infuser' for item: 'minecraft:aerya_infuser'
+java.io.FileNotFoundException: minecraft:models/item/aerya_infuser.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_helmet' for item: 'minecraft:aerya_helmet'
+java.io.FileNotFoundException: minecraft:models/item/aerya_helmet.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_chestplate' for item: 'minecraft:aerya_chestplate'
+java.io.FileNotFoundException: minecraft:models/item/aerya_chestplate.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_leggings' for item: 'minecraft:aerya_leggings'
+java.io.FileNotFoundException: minecraft:models/item/aerya_leggings.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_boots' for item: 'minecraft:aerya_boots'
+java.io.FileNotFoundException: minecraft:models/item/aerya_boots.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_ingot' for item: 'minecraft:aerya_ingot'
+java.io.FileNotFoundException: minecraft:models/item/aerya_ingot.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_nugget' for item: 'minecraft:aerya_nugget'
+java.io.FileNotFoundException: minecraft:models/item/aerya_nugget.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_sword' for item: 'minecraft:aerya_sword'
+java.io.FileNotFoundException: minecraft:models/item/aerya_sword.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_shovel' for item: 'minecraft:aerya_shovel'
+java.io.FileNotFoundException: minecraft:models/item/aerya_shovel.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_pickaxe' for item: 'minecraft:aerya_pickaxe'
+java.io.FileNotFoundException: minecraft:models/item/aerya_pickaxe.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_axe' for item: 'minecraft:aerya_axe'
+java.io.FileNotFoundException: minecraft:models/item/aerya_axe.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aerya_hammer' for item: 'minecraft:aerya_hammer'
+java.io.FileNotFoundException: minecraft:models/item/aerya_hammer.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aventurine_helmet' for item: 'minecraft:aventurine_helmet'
+java.io.FileNotFoundException: minecraft:models/item/aventurine_helmet.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aventurine_chestplate' for item: 'minecraft:aventurine_chestplate'
+java.io.FileNotFoundException: minecraft:models/item/aventurine_chestplate.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aventurine_leggings' for item: 'minecraft:aventurine_leggings'
+java.io.FileNotFoundException: minecraft:models/item/aventurine_leggings.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aventurine_boots' for item: 'minecraft:aventurine_boots'
+java.io.FileNotFoundException: minecraft:models/item/aventurine_boots.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aventurine_ingot' for item: 'minecraft:aventurine_ingot'
+java.io.FileNotFoundException: minecraft:models/item/aventurine_ingot.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aventurine_nugget' for item: 'minecraft:aventurine_nugget'
+java.io.FileNotFoundException: minecraft:models/item/aventurine_nugget.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aventurine_sword' for item: 'minecraft:aventurine_sword'
+java.io.FileNotFoundException: minecraft:models/item/aventurine_sword.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aventurine_shovel' for item: 'minecraft:aventurine_shovel'
+java.io.FileNotFoundException: minecraft:models/item/aventurine_shovel.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aventurine_pickaxe' for item: 'minecraft:aventurine_pickaxe'
+java.io.FileNotFoundException: minecraft:models/item/aventurine_pickaxe.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aventurine_axe' for item: 'minecraft:aventurine_axe'
+java.io.FileNotFoundException: minecraft:models/item/aventurine_axe.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/aventurine_hammer' for item: 'minecraft:aventurine_hammer'
+java.io.FileNotFoundException: minecraft:models/item/aventurine_hammer.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/tourmaline_helmet' for item: 'minecraft:tourmaline_helmet'
+java.io.FileNotFoundException: minecraft:models/item/tourmaline_helmet.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/tourmaline_chestplate' for item: 'minecraft:tourmaline_chestplate'
+java.io.FileNotFoundException: minecraft:models/item/tourmaline_chestplate.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/tourmaline_leggings' for item: 'minecraft:tourmaline_leggings'
+java.io.FileNotFoundException: minecraft:models/item/tourmaline_leggings.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/tourmaline_boots' for item: 'minecraft:tourmaline_boots'
+java.io.FileNotFoundException: minecraft:models/item/tourmaline_boots.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/tourmaline_ingot' for item: 'minecraft:tourmaline_ingot'
+java.io.FileNotFoundException: minecraft:models/item/tourmaline_ingot.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/tourmaline_nugget' for item: 'minecraft:tourmaline_nugget'
+java.io.FileNotFoundException: minecraft:models/item/tourmaline_nugget.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/tourmaline_sword' for item: 'minecraft:tourmaline_sword'
+java.io.FileNotFoundException: minecraft:models/item/tourmaline_sword.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/tourmaline_shovel' for item: 'minecraft:tourmaline_shovel'
+java.io.FileNotFoundException: minecraft:models/item/tourmaline_shovel.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/tourmaline_pickaxe' for item: 'minecraft:tourmaline_pickaxe'
+java.io.FileNotFoundException: minecraft:models/item/tourmaline_pickaxe.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/tourmaline_axe' for item: 'minecraft:tourmaline_axe'
+java.io.FileNotFoundException: minecraft:models/item/tourmaline_axe.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/tourmaline_hammer' for item: 'minecraft:tourmaline_hammer'
+java.io.FileNotFoundException: minecraft:models/item/tourmaline_hammer.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/eladrite_helmet' for item: 'minecraft:eladrite_helmet'
+java.io.FileNotFoundException: minecraft:models/item/eladrite_helmet.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/eladrite_chestplate' for item: 'minecraft:eladrite_chestplate'
+java.io.FileNotFoundException: minecraft:models/item/eladrite_chestplate.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/eladrite_leggings' for item: 'minecraft:eladrite_leggings'
+java.io.FileNotFoundException: minecraft:models/item/eladrite_leggings.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/eladrite_boots' for item: 'minecraft:eladrite_boots'
+java.io.FileNotFoundException: minecraft:models/item/eladrite_boots.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/eladrite_ingot' for item: 'minecraft:eladrite_ingot'
+java.io.FileNotFoundException: minecraft:models/item/eladrite_ingot.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/eladrite_nugget' for item: 'minecraft:eladrite_nugget'
+java.io.FileNotFoundException: minecraft:models/item/eladrite_nugget.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/eladrite_sword' for item: 'minecraft:eladrite_sword'
+java.io.FileNotFoundException: minecraft:models/item/eladrite_sword.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/eladrite_shovel' for item: 'minecraft:eladrite_shovel'
+java.io.FileNotFoundException: minecraft:models/item/eladrite_shovel.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/eladrite_pickaxe' for item: 'minecraft:eladrite_pickaxe'
+java.io.FileNotFoundException: minecraft:models/item/eladrite_pickaxe.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/eladrite_axe' for item: 'minecraft:eladrite_axe'
+java.io.FileNotFoundException: minecraft:models/item/eladrite_axe.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/eladrite_hammer' for item: 'minecraft:eladrite_hammer'
+java.io.FileNotFoundException: minecraft:models/item/eladrite_hammer.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/amethyste_helmet' for item: 'minecraft:amethyste_helmet'
+java.io.FileNotFoundException: minecraft:models/item/amethyste_helmet.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/amethyste_chestplate' for item: 'minecraft:amethyste_chestplate'
+java.io.FileNotFoundException: minecraft:models/item/amethyste_chestplate.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/amethyste_leggings' for item: 'minecraft:amethyste_leggings'
+java.io.FileNotFoundException: minecraft:models/item/amethyste_leggings.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/amethyste_boots' for item: 'minecraft:amethyste_boots'
+java.io.FileNotFoundException: minecraft:models/item/amethyste_boots.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/amethyste_ingot' for item: 'minecraft:amethyste_ingot'
+java.io.FileNotFoundException: minecraft:models/item/amethyste_ingot.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/amethyste_sword' for item: 'minecraft:amethyste_sword'
+java.io.FileNotFoundException: minecraft:models/item/amethyste_sword.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/amethyste_shovel' for item: 'minecraft:amethyste_shovel'
+java.io.FileNotFoundException: minecraft:models/item/amethyste_shovel.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/amethyste_pickaxe' for item: 'minecraft:amethyste_pickaxe'
+java.io.FileNotFoundException: minecraft:models/item/amethyste_pickaxe.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/amethyste_axe' for item: 'minecraft:amethyste_axe'
+java.io.FileNotFoundException: minecraft:models/item/amethyste_axe.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/amethyste_hammer' for item: 'minecraft:amethyste_hammer'
+java.io.FileNotFoundException: minecraft:models/item/amethyste_hammer.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/excalibur' for item: 'minecraft:excalibur'
+java.io.FileNotFoundException: minecraft:models/item/excalibur.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/masamune' for item: 'minecraft:masamune'
+java.io.FileNotFoundException: minecraft:models/item/masamune.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/galuth' for item: 'minecraft:galuth'
+java.io.FileNotFoundException: minecraft:models/item/galuth.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/joyeuse' for item: 'minecraft:joyeuse'
+java.io.FileNotFoundException: minecraft:models/item/joyeuse.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/durandal' for item: 'minecraft:durandal'
+java.io.FileNotFoundException: minecraft:models/item/durandal.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:10] [Client thread/WARN]: Unable to load item model: 'minecraft:item/lobera' for item: 'minecraft:lobera'
+java.io.FileNotFoundException: minecraft:models/item/lobera.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:257) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:304) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.func_177577_b(ModelBakery.java:102) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:85) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:26) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:538) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:390) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:22:11] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_ore
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_block
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/eladrite_ore
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/eladrite_block
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aventurine_ore
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aventurine_block
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/amethyste_ore
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/amethyste_block
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/tourmaline_ore
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/tourmaline_block
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_infuser
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_helmet
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_chestplate
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_leggings
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_boots
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_ingot
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_nugget
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_sword
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_shovel
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_pickaxe
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_axe
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aerya_hammer
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aventurine_helmet
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aventurine_chestplate
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aventurine_leggings
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aventurine_boots
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aventurine_ingot
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aventurine_nugget
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aventurine_sword
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aventurine_shovel
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aventurine_pickaxe
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aventurine_axe
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/aventurine_hammer
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/tourmaline_helmet
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/tourmaline_chestplate
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/tourmaline_leggings
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/tourmaline_boots
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/tourmaline_ingot
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/tourmaline_nugget
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/tourmaline_sword
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/tourmaline_shovel
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/tourmaline_pickaxe
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/tourmaline_axe
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/tourmaline_hammer
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/eladrite_helmet
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/eladrite_chestplate
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/eladrite_leggings
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/eladrite_boots
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/eladrite_ingot
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/eladrite_nugget
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/eladrite_sword
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/eladrite_shovel
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/eladrite_pickaxe
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/eladrite_axe
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/eladrite_hammer
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/amethyste_helmet
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/amethyste_chestplate
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/amethyste_leggings
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/amethyste_boots
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/amethyste_ingot
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/amethyste_sword
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/amethyste_shovel
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/amethyste_pickaxe
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/amethyste_axe
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/amethyste_hammer
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/excalibur
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/masamune
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/galuth
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/joyeuse
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/durandal
+[01:22:11] [Client thread/WARN]: Missing model for: minecraft:item/lobera
+[01:22:14] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[01:22:14] [Server thread/INFO]: Generating keypair
+[01:22:15] [Server thread/INFO]: Preparing start region for level 0
+[01:22:15] [Server thread/INFO]: Changing view distance to 8, from 10
+[01:22:15] [Server thread/INFO]: dev[local:E:7ec207c5] logged in with entity id 353 at (-123.23708923860654, 86.0, 252.7516458086247)
+[01:22:15] [Server thread/INFO]: dev joined the game
+[01:22:16] [Chunk Batcher 1/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
+[01:22:16] [Chunk Batcher 0/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
+[01:22:16] [Chunk Batcher 1/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
+[01:22:16] [Chunk Batcher 1/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
+[01:22:16] [Chunk Batcher 0/WARN]: Needed to grow BufferBuilder buffer: Old size 524288 bytes, new size 2621440 bytes.
+[01:22:19] [Server thread/INFO]: Saving and pausing game...
+[01:22:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:22:19] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:22:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:22:25] [Server thread/INFO]: Saving and pausing game...
+[01:22:25] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:22:25] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:22:25] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:23:20] [Server thread/INFO]: Saving and pausing game...
+[01:23:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:23:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:23:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:23:21] [Server thread/INFO]: Saving and pausing game...
+[01:23:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:23:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:23:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:23:49] [Server thread/INFO]: Saving and pausing game...
+[01:23:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:23:49] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:23:49] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:23:59] [Server thread/INFO]: Saving and pausing game...
+[01:23:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:23:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:23:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:24:22] [Server thread/INFO]: Saving and pausing game...
+[01:24:22] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:24:22] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:24:22] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:24:52] [Client thread/WARN]: Failed to load texture: minecraft:textures/entity/aeryacursed/aeryacursed.png
+java.io.FileNotFoundException: minecraft:textures/entity/aeryacursed/aeryacursed.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:67) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:64) ~[bin/:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:34) ~[bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:83) [bin/:?]
+	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(TextureManager.java:50) [bin/:?]
+	at net.minecraft.client.renderer.entity.Render.bindTexture(Render.java:98) [bin/:?]
+	at net.minecraft.client.renderer.entity.Render.bindEntityTexture(Render.java:91) [bin/:?]
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.renderModel(RendererLivingEntity.java:278) [bin/:?]
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.doRender(RendererLivingEntity.java:186) [bin/:?]
+	at net.minecraft.client.renderer.entity.RenderLiving.doRender(RenderLiving.java:58) [bin/:?]
+	at fr.aeryacraft.client.renderer.entity.RenderAeryaCursed.func_180579_a(RenderAeryaCursed.java:55) [bin/:?]
+	at fr.aeryacraft.client.renderer.entity.RenderAeryaCursed.doRender(RenderAeryaCursed.java:134) [bin/:?]
+	at net.minecraft.client.renderer.entity.RenderManager.doRenderEntity(RenderManager.java:401) [bin/:?]
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntityStatic(RenderManager.java:358) [bin/:?]
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntitySimple(RenderManager.java:325) [bin/:?]
+	at net.minecraft.client.renderer.RenderGlobal.func_180446_a(RenderGlobal.java:773) [bin/:?]
+	at net.minecraft.client.renderer.EntityRenderer.func_175068_a(EntityRenderer.java:1718) [bin/:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1521) [bin/:?]
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1313) [bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1127) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:410) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:114) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+[01:24:57] [Server thread/INFO]: Saving and pausing game...
+[01:24:57] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:24:57] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:24:57] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:25:17] [Server thread/INFO]: Saving and pausing game...
+[01:25:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:25:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:25:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:25:30] [Server thread/INFO]: Saving and pausing game...
+[01:25:30] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:25:30] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:25:30] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:25:39] [Server thread/INFO]: Saving and pausing game...
+[01:25:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:25:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:25:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:25:45] [Server thread/INFO]: Saving and pausing game...
+[01:25:45] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:25:45] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:25:45] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:25:56] [Server thread/INFO]: Saving and pausing game...
+[01:25:56] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:25:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:25:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:26:13] [Server thread/INFO]: Saving and pausing game...
+[01:26:13] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:26:13] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:26:13] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:26:21] [Server thread/INFO]: Saving and pausing game...
+[01:26:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:26:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:26:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:26:27] [Server thread/INFO]: Saving and pausing game...
+[01:26:27] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:26:27] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:26:27] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:26:35] [Server thread/INFO]: Saving and pausing game...
+[01:26:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:26:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:26:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:26:54] [Server thread/INFO]: Saving and pausing game...
+[01:26:54] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:26:54] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:26:54] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:27:06] [Server thread/INFO]: Saving and pausing game...
+[01:27:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:27:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:27:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:27:11] [Server thread/INFO]: Saving and pausing game...
+[01:27:11] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:27:11] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:27:11] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:27:35] [Server thread/INFO]: Saving and pausing game...
+[01:27:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:27:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:27:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:27:41] [Server thread/INFO]: Saving and pausing game...
+[01:27:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:27:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:27:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:27:47] [Server thread/INFO]: Saving and pausing game...
+[01:27:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:27:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:27:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:27:59] [Server thread/INFO]: Saving and pausing game...
+[01:27:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:27:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:27:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:28:10] [Server thread/INFO]: Saving and pausing game...
+[01:28:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:28:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:28:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:28:28] [Server thread/INFO]: Saving and pausing game...
+[01:28:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:28:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:28:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:29:03] [Server thread/INFO]: Saving and pausing game...
+[01:29:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:29:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:29:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:29:09] [Server thread/INFO]: Saving and pausing game...
+[01:29:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:29:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:29:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:29:34] [Server thread/INFO]: Saving and pausing game...
+[01:29:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:29:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:29:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:29:54] [Server thread/INFO]: Saving and pausing game...
+[01:29:54] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:29:54] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:29:54] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:30:03] [Server thread/INFO]: Saving and pausing game...
+[01:30:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:30:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:30:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:30:07] [Server thread/INFO]: Saving and pausing game...
+[01:30:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:30:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:30:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:30:16] [Server thread/INFO]: Saving and pausing game...
+[01:30:16] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:30:16] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:30:16] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:30:24] [Server thread/INFO]: Saving and pausing game...
+[01:30:24] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:30:24] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:30:24] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:30:29] [Server thread/INFO]: Saving and pausing game...
+[01:30:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:30:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:30:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:30:56] [Server thread/INFO]: Saving and pausing game...
+[01:30:56] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:30:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:30:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:30:59] [Server thread/INFO]: Saving and pausing game...
+[01:30:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:30:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:30:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:31:02] [Server thread/INFO]: Saving and pausing game...
+[01:31:02] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:31:02] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:31:02] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:31:04] [Server thread/INFO]: Saving and pausing game...
+[01:31:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:31:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:31:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:31:23] [Server thread/INFO]: Saving and pausing game...
+[01:31:23] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:31:23] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:31:23] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:31:25] [Server thread/INFO]: Saving and pausing game...
+[01:31:25] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:31:25] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:31:25] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:31:28] [Server thread/INFO]: Saving and pausing game...
+[01:31:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:31:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:31:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:31:41] [Server thread/INFO]: Saving and pausing game...
+[01:31:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:31:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:31:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:31:49] [Server thread/INFO]: Saving and pausing game...
+[01:31:49] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:31:49] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:31:49] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:31:59] [Server thread/INFO]: Saving and pausing game...
+[01:31:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:31:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:31:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:32:17] [Server thread/INFO]: Saving and pausing game...
+[01:32:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:32:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:32:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:32:34] [Server thread/INFO]: Saving and pausing game...
+[01:32:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:32:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:32:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:32:45] [Server thread/INFO]: Saving and pausing game...
+[01:32:45] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:32:45] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:32:45] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:33:01] [Server thread/INFO]: Saving and pausing game...
+[01:33:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:33:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:33:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:33:08] [Server thread/INFO]: Saving and pausing game...
+[01:33:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:33:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:33:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:33:15] [Server thread/INFO]: Saving and pausing game...
+[01:33:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:33:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:33:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:33:21] [Server thread/INFO]: Saving and pausing game...
+[01:33:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:33:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:33:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:33:41] [Server thread/INFO]: Saving and pausing game...
+[01:33:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:33:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:33:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:33:47] [Server thread/INFO]: Saving and pausing game...
+[01:33:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:33:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:33:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:33:53] [Server thread/INFO]: Saving and pausing game...
+[01:33:53] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:33:53] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:33:53] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:34:10] [Server thread/INFO]: Saving and pausing game...
+[01:34:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:34:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:34:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:34:18] [Server thread/INFO]: Saving and pausing game...
+[01:34:18] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:34:18] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:34:18] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:34:20] [Server thread/INFO]: Saving and pausing game...
+[01:34:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:34:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:34:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:34:22] [Server thread/INFO]: Saving and pausing game...
+[01:34:22] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:34:22] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:34:22] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:34:35] [Server thread/INFO]: Saving and pausing game...
+[01:34:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:34:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:34:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:34:44] [Server thread/INFO]: Saving and pausing game...
+[01:34:44] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:34:44] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:34:44] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:35:28] [Server thread/INFO]: [dev: Set the time to 3600]
+[01:35:28] [Client thread/INFO]: [CHAT] Set the time to 3600
+[01:35:31] [Server thread/INFO]: Saving and pausing game...
+[01:35:31] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:35:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:35:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:35:32] [Server thread/INFO]: Saving and pausing game...
+[01:35:32] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:35:32] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:35:32] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[01:35:34] [Server thread/INFO]: Stopping server
+[01:35:34] [Server thread/INFO]: Saving players
+[01:35:34] [Server thread/INFO]: Saving worlds
+[01:35:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[01:35:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[01:35:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
